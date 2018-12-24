@@ -19,9 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- NES-style CSS Framework https://github.com/nostalgic-css/NES.css -->
-    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" as="style" rel="preload" onload="this.rel='stylesheet'" />
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="styles.css" as="style" rel="preload" onload="this.rel='stylesheet'">
   </head>
   <body>
 
