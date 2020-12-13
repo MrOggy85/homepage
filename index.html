@@ -1,11 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Oskar Lindgren</title>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Oskar Lindgren is a Frontend Dev with experince with React, React Native, Vue. As a Fullstack Dev he also uses Node.js, Go, Java and C#.">
     <meta name="robots" content="index, follow" />
-
     <meta property="og:title" content="Oskar Lindgren - Frontend Developer">
     <meta property="og:url" content="https://www.oskarlindgren.se/" />
     <meta property="og:type" content="website" />
@@ -15,42 +14,26 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="og:image:type" content="image/jpeg" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131337760-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-131337760-1');
-    </script>
-
     <!-- NES-style CSS Framework https://github.com/nostalgic-css/NES.css -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
-
     <link href="styles.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
-
     <link rel="shortcut icon" href="assets/favicon.ico" />
-
-
   </head>
   <body>
-
-
     <div class="wrapper">
       <div class="mountains"></div>
       <div class="trees"></div>
       <div class="grass"></div>
-
       <div class="content-wrapper">
         <div class="content-inner">
           <section class="container with-title">
             <h2 class="title">Oskar</h2>
               <div class="row">
-                <img src="https://avatars0.githubusercontent.com/u/2677573?s=460&v=4" alt="profile picture" width="100" height="100" />
+                <img src="assets/profile_100.png" alt="profile picture" width="100" height="100" />
                 <div style="margin-left:28px;">
                   <p>
                       Hello!
@@ -64,14 +47,17 @@
              </div>
 
              <div class="row right-aligned">
-               <a href="https://github.com/MrOggy85" style="margin-right:5px">
+               <a href="https://github.com/MrOggy85" class="icon-link" style="margin-right:5px">
                  <i class="icon github is-medium"></i>
+                 Github
                </a>
-               <a href="https://twitter.com/oskarlindgren" style="margin-right:5px">
+               <a href="https://twitter.com/oskarlindgren" class="icon-link" style="margin-right:5px">
                  <i class="icon twitter is-medium"></i>
+                 Twitter
                </a>
-               <a href="https://www.linkedin.com/in/oskarlindgren/">
-                 <img src="assets/linkedin.png" width="48" height="48" />
+               <a href="https://www.linkedin.com/in/oskarlindgren/" class="icon-link">
+                 <img src="assets/linkedin.png" alt="linkedin" width="48" height="48" />
+                 LinkedIn
                </a>
              </div>
 
@@ -83,13 +69,14 @@
         <p>CSS from <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> by <a href="https://github.com/nostalgic-css">nostalic-css</a></p>
         <p>Backgrounds by <a href="http://supermariobrothersx.wikia.com/wiki/SMB2_Backgrounds">Fandom: Super Mario Bros X Wiki</a></p>
       </div>
+
+      <a class="matrix-link" href="/matrix">Matrix version</a>
     </div>
 
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-131337760-1');
     </script>
   </body>
