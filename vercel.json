@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/matrix", "destination": "https://www.oskarlindgren.se/matrix/" }
+    { "source": "/matrix/:match*", "destination": "https://homepage-matrix.vercel.app/:match*" }
   ]
 }
