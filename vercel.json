@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/matrix", "destination": "https://www.oskarlindgren.se/matrix/" }
+  ]
+}
