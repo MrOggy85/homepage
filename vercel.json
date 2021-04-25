@@ -1,7 +1,7 @@
 {
   "rewrites": [
     { "source": "/matrix/:match*", "destination": "https://homepage-matrix.vercel.app/:match*" },
-    { "source": "/blog/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" }
-
+    { "source": "/blog/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" },
+    { "source": "/_nuxt/:match*", "destination": "/blog/_nuxt/:match*" }
   ]
 }
