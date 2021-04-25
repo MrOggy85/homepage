@@ -1,7 +1,10 @@
 {
+  "redirects": [
+    { "source": "/matrix", "destination": "/matrix/" },
+    { "source": "/blog", "destination": "/blog/" }
+  ],
   "rewrites": [
     { "source": "/matrix/:match*", "destination": "https://homepage-matrix.vercel.app/:match*" },
-    { "source": "/blog", "destination": "/blog/" },
     { "source": "/blog/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" },
     { "source": "/_nuxt/:match*", "destination": "https://blog-mroggy86.vercel.app/_nuxt/:match*" }
   ]
