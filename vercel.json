@@ -1,12 +1,17 @@
 {
   "redirects": [
     { "source": "/matrix", "destination": "/matrix/" },
-    { "source": "/blog", "destination": "/blog/" }
+    { "source": "/blog", "destination": "/blog/" },
+    { "source": "/cv", "destination": "/cv/" }
   ],
   "rewrites": [
     { "source": "/matrix/:match*", "destination": "https://homepage-matrix.vercel.app/:match*" },
+
     { "source": "/blog/", "destination": "https://blog-mroggy86.vercel.app/" },
     { "source": "/blog/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" },
-    { "source": "/_nuxt/:match*", "destination": "https://blog-mroggy86.vercel.app/_nuxt/:match*" }
+    { "source": "/_nuxt/:match*", "destination": "https://blog-mroggy86.vercel.app/_nuxt/:match*" },
+
+    { "source": "/cv/", "destination": "https://resume-nine-self.vercel.app/" },
+    { "source": "/cv/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" }
   ]
 }
