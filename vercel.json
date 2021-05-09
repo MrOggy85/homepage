@@ -12,6 +12,6 @@
     { "source": "/_nuxt/:match*", "destination": "https://blog-mroggy86.vercel.app/_nuxt/:match*" },
 
     { "source": "/cv/", "destination": "https://resume-nine-self.vercel.app/" },
-    { "source": "/cv/:match*", "destination": "https://blog-mroggy86.vercel.app/:match*" }
+    { "source": "/cv/:match*", "destination": "https://resume-nine-self.vercel.app/:match*" }
   ]
 }
