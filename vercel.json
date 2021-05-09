@@ -5,6 +5,7 @@
     { "source": "/cv", "destination": "/cv/" }
   ],
   "rewrites": [
+    { "source": "/matrix/", "destination": "https://homepage-matrix.vercel.app/index.html" },
     { "source": "/matrix/:match*", "destination": "https://homepage-matrix.vercel.app/:match*" },
 
     { "source": "/blog/", "destination": "https://blog-mroggy86.vercel.app/index.html" },
