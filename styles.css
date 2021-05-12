@@ -19,6 +19,12 @@ body {
   margin: 0;
   min-height: 100%;
   height: 100%;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
 }
 
 .wrapper {
@@ -94,7 +100,7 @@ body {
 
 .content-wrapper {
   position:absolute;
-  top:300px;
+  top:200px;
   left:0;
   right:0;
   margin-left: auto;
@@ -106,9 +112,30 @@ body {
   position: relative;
 }
 
-.container.with-title {
+.nes-container {
   background-color: white;
   z-index: 0;
+  border-image-repeat: unset !important;
+}
+
+.nes-list {
+  padding-left: 20px;
+}
+
+.nes-balloon {
+  padding: 8px;
+  border-image-repeat: unset;
+}
+
+.profile-image {
+  border-image-repeat: space;
+  border-image-slice: 3;
+  border-image-width: 3;
+  border-image-repeat: stretch;
+  border-style: solid;
+  border-width: 4px;
+  padding: 4px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
 }
 
 .content-inner .container::before,
@@ -120,14 +147,12 @@ body {
   display: flex;
   flex-direction: row;
 }
-.right-aligned {
-  justify-content: flex-end;
-}
 
 .icon-link {
   display: flex;
   flex-direction: column;
-  font-size: 8px;
+  font-size: 1.5vw;
+  width: 64px;
 }
 
 .credits {
@@ -137,6 +162,9 @@ body {
   color: #b1b000;
   font-size: 10px;
 }
+.credits a {
+  color: #43a8c7;
+}
 
 .matrix-link {
   position: absolute;
@@ -145,9 +173,8 @@ body {
 
 @media (max-width: 480px) {
   .content-wrapper {
-    top: 200px;
+    top: 50px;
     width: 95%;
-    font-size: 10px;
   }
 
   .mountains {
@@ -155,6 +182,15 @@ body {
   }
   .grass {
     top: -90px;
+  }
+
+  .row-profile {
+    flex-direction: column-reverse;
+  }
+  .column-profile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
   }
 }
 @media screen and (max-height: 600px) {
