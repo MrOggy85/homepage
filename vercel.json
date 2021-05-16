@@ -2,8 +2,7 @@
   "redirects": [
     { "source": "/matrix", "destination": "/matrix/" },
     { "source": "/blog", "destination": "/blog/" },
-    { "source": "/cv", "destination": "/cv/" },
-    { "source": "/photos", "destination": "/photos/" }
+    { "source": "/cv", "destination": "/cv/" }
   ],
   "rewrites": [
     { "source": "/matrix/", "destination": "https://homepage-matrix.vercel.app/index.html" },
