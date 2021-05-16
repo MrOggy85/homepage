@@ -14,7 +14,8 @@
     { "source": "/cv/", "destination": "https://resume-nine-self.vercel.app/" },
     { "source": "/cv/:match*", "destination": "https://resume-nine-self.vercel.app/:match*" },
 
-    { "source": "/photos/", "destination": "https://photo-blog-omega.vercel.app" },
+    { "source": "/photos", "destination": "https://photo-blog-omega.vercel.app" },
+    { "source": "/photos/", "destination": "https://photo-blog-omega.vercel.app/" },
     { "source": "/photos/:match*", "destination": "https://photo-blog-omega.vercel.app/:match*" }
   ]
 }
