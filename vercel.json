@@ -24,7 +24,7 @@
     },
     {
       "source": "/blog",
-      "destination": "/blog/"
+      "destination": "https://blog-mroggy86.vercel.app"
     },
     {
       "source": "/blog/",
