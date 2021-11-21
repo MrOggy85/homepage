@@ -24,11 +24,11 @@
     },
     {
       "source": "/blog",
-      "destination": "https://blog-mroggy86.vercel.app"
+      "destination": "https://blog-mroggy86.vercel.app/blog/"
     },
     {
       "source": "/blog/",
-      "destination": "https://blog-mroggy86.vercel.app"
+      "destination": "https://blog-mroggy86.vercel.app/blog/"
     },
     {
       "source": "/blog/:match*",
