@@ -11,6 +11,10 @@
     {
       "source": "/photos/",
       "destination": "/photos"
+    },
+    {
+      "source": "/japanese-numbers/",
+      "destination": "/japanese-numbers"
     }
   ],
   "rewrites": [
@@ -49,6 +53,14 @@
     {
       "source": "/photos/:match*",
       "destination": "https://photo-blog-omega.vercel.app/photos/:match*"
+    },
+    {
+      "source": "/japanese-numbers",
+      "destination": "https://japanese-numbers-web.vercel.app/index.html"
+    },
+    {
+      "source": "/japanese-numbers/:match*",
+      "destination": "https://japanese-numbers-web.vercel.app/:match*"
     }
   ]
 }
