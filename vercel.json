@@ -56,7 +56,7 @@
     },
     {
       "source": "/japanese-numbers",
-      "destination": "https://japanese-numbers-web.vercel.app/index.html"
+      "destination": "https://japanese-numbers-web.vercel.app"
     },
     {
       "source": "/japanese-numbers/:match*",
