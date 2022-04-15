@@ -177,6 +177,16 @@ h2 {
 }
 
 @media (max-width: 480px) {
+  li {
+    height: 48px;
+  }
+
+  a {
+    display: inline-block;
+    height: 100%;
+    padding: 12px;
+  }
+
   .wrapper {
     height: 200%;
   }
