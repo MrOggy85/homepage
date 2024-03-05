@@ -28,15 +28,15 @@
     },
     {
       "source": "/blog",
-      "destination": "https://blog-mroggy86.vercel.app/blog/"
+      "destination": "https://blog-rouge-kappa.vercel.app/blog/"
     },
     {
       "source": "/blog/",
-      "destination": "https://blog-mroggy86.vercel.app/blog/"
+      "destination": "https://blog-rouge-kappa.vercel.app/blog/"
     },
     {
       "source": "/blog/:match*",
-      "destination": "https://blog-mroggy86.vercel.app/:match*"
+      "destination": "https://blog-rouge-kappa.vercel.app/:match*"
     },
     {
       "source": "/cv/",
